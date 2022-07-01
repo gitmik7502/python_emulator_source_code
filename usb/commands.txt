@@ -1,0 +1,29 @@
+if you dont want to read then,
+follow tutorial.mp4
+
+wait for dll check to complete,
+if  it boots the bios then,
+first boot in the usb,
+and boot the demo
+then type "reboot --enable-hdd"
+then boot the hdd and type "installapp win95installer"
+after installing,
+execute it by typeing "setup"
+it will fail because the "cpu" is too new.
+then type "installapp 95patch"
+and after installing it,
+type "setup" again
+go through the setup
+and at the end
+press enter
+you will get a little message from me
+then press enter
+then open the drive using the windows file explorer and
+add a file called "boot.bat" to the root of it
+and put some code in it
+then go back to the app
+and type "bootdisk --createfile:boot.img --bootimage:command.com, boot.bat"
+after saying "completed creating bootfile boot.img",
+type "bootdisk --bootfile:boot.img"
+this will open the .bat file
+and thats it for now!

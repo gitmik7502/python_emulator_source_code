@@ -1,0 +1,7 @@
+[AutoRun.Amd64]
+open=game.exe
+icon=game.exe,0
+
+[AutoRun]
+open=game.exe
+icon=game.exe,0
