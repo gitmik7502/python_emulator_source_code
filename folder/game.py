@@ -393,11 +393,8 @@ def hdd_boot(bootdisk, combineinstalled, patchinstalled, wininstalled):
                         2. bootdisk --deletefile:boot.img
 
                         press any key to continue to the MS-DOS prompt...""")
-            key = input("")
-            if key == "":
-                DOS1(bootdisk, combineinstalled, patchinstalled, wininstalled)
-            else:
-                DOS1(bootdisk, combineinstalled, patchinstalled, wininstalled)
+            input("")
+            DOS1(bootdisk, combineinstalled, patchinstalled, wininstalled)
         elif command == "help bootdisk":
             print("""
             #########
@@ -423,11 +420,8 @@ def hdd_boot(bootdisk, combineinstalled, patchinstalled, wininstalled):
             2. bootdisk --deletefile:boot.img
             
             press any key to continue to the MS-DOS prompt...""")
-            key = input("")
-            if key == "":
-                DOS1(bootdisk, combineinstalled, patchinstalled, wininstalled)
-            else:
-                DOS1(bootdisk, combineinstalled, patchinstalled, wininstalled)
+            input("")
+            DOS1(bootdisk, combineinstalled, patchinstalled, wininstalled)
         elif command == "installapp win95installer":
             os.system("cls")
             combineinstalled = "1"
